@@ -24,7 +24,7 @@ struct ListView: View {
             .onDelete(perform: listViewModel.deleteItem)
             .onMove(perform: listViewModel.moveItem)
         }
-        .navigationTitle("My Tasks 📝")
+        .navigationTitle("My Tasks ✏️📝")
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
                 EditButton()
